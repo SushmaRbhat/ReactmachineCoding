@@ -1,0 +1,73 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: left;
+  font-size: 14px;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+}
+
+.container input {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.container input:focus {
+  border: 2px solid #646cff;
+}
+
+.loading,
+.error {
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.error {
+  color: red;
+}
+
+.suggestions {
+  position: absolute;
+  width: 100%;
+  border: none;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  z-index: 10;
+  max-height: 250px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover,
+.suggestion-item[aria-selected="true"] {
+  background-color: #ebebeb;
+}

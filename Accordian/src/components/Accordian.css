@@ -1,0 +1,25 @@
+.accordian-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.accordian-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordian-container p {
+  margin-top: 1rem;
+}
+.accordian-header h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+}
+.accordian-header button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+}

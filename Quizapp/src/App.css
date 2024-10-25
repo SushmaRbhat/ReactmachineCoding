@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.app {
+  width: 70%;
+  margin: 0 auto;
+}
+.quiz-container {
+  margin-top: 30px;
+}
+.question {
+  margin: 20px auto;
+  border: 3px solid #b7afaf;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.question h2 {
+  margin-bottom: 16px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.options button {
+  width: 100%;
+  text-align: left;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* border: 1px solid grey; */
+}
+
+.options .selected {
+  background-color: rgb(33, 154, 185);
+  color: #fff;
+}
+.next-button {
+  background-color: rgb(8, 82, 156);
+  color: white;
+  float: right;
+}
+.results {
+  text-align: center;
+}
+.results h2 {
+  margin-bottom: 15px;
+}
+.results p {
+  font-size: 18px;
+}
+.results ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+.result-item {
+  margin-bottom: 12px;
+  border: 2px solid #ddd;
+  padding: 10px;
+}
+
+.results li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.correct {
+  color: green;
+}
+.wrong {
+  color: rgb(230, 15, 15);
+}

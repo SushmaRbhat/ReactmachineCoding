@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.otp-container {
+  display: flex;
+  gap: 10px;
+}
+.otp-container input {
+  outline: none;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}
+.otp-container input:focus {
+  border: 1px solid blue;
+}
